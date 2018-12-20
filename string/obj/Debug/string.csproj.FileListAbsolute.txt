@@ -1,0 +1,7 @@
+C:\Users\GertzA\source\repos\string\string\obj\Debug\string.csprojAssemblyReference.cache
+C:\Users\GertzA\source\repos\string\string\obj\Debug\string.csproj.CoreCompileInputs.cache
+C:\Users\GertzA\source\repos\string\string\bin\Debug\@string.exe.config
+C:\Users\GertzA\source\repos\string\string\bin\Debug\@string.exe
+C:\Users\GertzA\source\repos\string\string\bin\Debug\@string.pdb
+C:\Users\GertzA\source\repos\string\string\obj\Debug\@string.exe
+C:\Users\GertzA\source\repos\string\string\obj\Debug\@string.pdb
