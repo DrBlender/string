@@ -21,10 +21,9 @@ namespace @string
             string adresse, teilips = "";
             bool ergebnis = true;
             int laenge = 0, teilip = 0, gesamt, pruf = 0;
-            double pruf2;
 
 
-            Console.WriteLine("Bitte geben Sie die zu überprüfende IP-Adresse an:");
+            Console.WriteLine("Bitte geben Sie die zu überprüfende IPv4-Adresse an:");
             adresse = Console.ReadLine(); //gesamte IP adresse
             gesamt = adresse.Length; //Länge der IP-Adresse
             if (!(gesamt >= 7 && gesamt <= 15)) //Ist die IP-Adresse min 7 max 15 lang?
@@ -33,8 +32,8 @@ namespace @string
                 Console.ReadKey();
                 Environment.Exit(0);
             }
-            pruf2 = adresse.IndexOf('.');
-            if (pruf2 > 3)
+            pruf = adresse.IndexOf('.');
+            if ((pruf > 3) || (pruf == 0) || (pruf == -1))
             {
                 Console.WriteLine("Die IP-Adresse ist ÜNGÜLTIG!");
                 Console.ReadKey();
